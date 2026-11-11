@@ -1,6 +1,6 @@
 # Bill of Materials
 
-Prices are rough USD estimates (Nov 2026). Each line is tracked as a `purchase` issue on the [project board](https://github.com/users/rutvijdhotey/projects) — close it when the part arrives.
+Prices are rough USD estimates (Nov 2026). Each line is tracked as a `purchase` issue on the [project board](https://github.com/users/rutvijdhotey/projects/5) — close it when the part arrives.
 
 ## Already owned
 

@@ -332,7 +332,7 @@ Project Link: [https://github.com/rutvijdhotey/pet-treat-feeder](https://github.
 [license-shield]: https://img.shields.io/github/license/rutvijdhotey/pet-treat-feeder.svg?style=for-the-badge
 [license-url]: https://github.com/rutvijdhotey/pet-treat-feeder/blob/main/LICENSE
 [status-shield]: https://img.shields.io/badge/status-design%20phase-orange?style=for-the-badge
-[project-url]: https://github.com/rutvijdhotey/pet-treat-feeder/issues
+[project-url]: https://github.com/users/rutvijdhotey/projects/5
 [RaspberryPi-badge]: https://img.shields.io/badge/Raspberry%20Pi%203-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white
 [RaspberryPi-url]: https://www.raspberrypi.com/
 [Python-badge]: https://img.shields.io/badge/Python%203.11-3776AB?style=for-the-badge&logo=python&logoColor=white
