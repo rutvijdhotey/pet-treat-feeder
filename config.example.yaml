@@ -1,0 +1,28 @@
+# Copy to config.yaml and edit. config.yaml is git-ignored.
+
+telegram:
+  allowed_user_ids:            # numeric Telegram user IDs (ask @userinfobot)
+    - 000000000
+
+timezone: America/Los_Angeles
+
+treats:
+  daily_cap: 8
+  capacity: 80                 # treats in a full ~150 mL hopper
+
+supply:
+  low_threshold_pct: 20
+  low_clear_pct: 30            # hysteresis
+  refill_rise_pct: 15
+  poll_interval_s: 300
+  empty_mm: null               # calibrate in M2
+  full_mm: null
+
+schedule:
+  default_jitter_min: 0
+
+notifications:
+  daily_summary: "21:00"
+
+leds:
+  brightness: 0.4              # 0.0 – 1.0

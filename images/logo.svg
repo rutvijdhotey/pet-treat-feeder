@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" role="img" aria-label="Pet Treat Feeder logo">
+  <circle cx="80" cy="80" r="76" fill="#FFF4E6" stroke="#F08C00" stroke-width="6"/>
+  <!-- hopper -->
+  <path d="M52 34 h56 l-10 34 h-36 z" fill="#74C0FC" stroke="#1C7ED6" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="70" cy="50" r="5" fill="#D9480F"/>
+  <circle cx="84" cy="46" r="5" fill="#E8590C"/>
+  <circle cx="92" cy="55" r="5" fill="#D9480F"/>
+  <!-- body / disc -->
+  <rect x="58" y="68" width="44" height="14" rx="4" fill="#495057"/>
+  <!-- falling treat -->
+  <circle cx="80" cy="94" r="5" fill="#E8590C"/>
+  <!-- cat head -->
+  <path d="M46 132 q0 -28 34 -28 q34 0 34 28 z" fill="#343A40"/>
+  <path d="M52 116 l-4 -16 l14 9 z M108 116 l4 -16 l-14 9 z" fill="#343A40"/>
+  <circle cx="69" cy="120" r="3.5" fill="#FAB005"/>
+  <circle cx="91" cy="120" r="3.5" fill="#FAB005"/>
+  <!-- status LEDs -->
+  <circle cx="64" cy="75" r="2.5" fill="#40C057"/>
+  <circle cx="72" cy="75" r="2.5" fill="#339AF0"/>
+  <circle cx="80" cy="75" r="2.5" fill="#FD7E14"/>
+</svg>
