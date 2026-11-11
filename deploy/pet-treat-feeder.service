@@ -1,0 +1,30 @@
+[Unit]
+Description=Pet Treat Feeder (Telegram-controlled treat dispenser)
+After=network-online.target time-sync.target
+Wants=network-online.target time-sync.target
+
+[Service]
+Type=simple
+User=feeder
+Group=feeder
+SupplementaryGroups=gpio i2c
+WorkingDirectory=/opt/pet-treat-feeder
+# The app reads its own .env via --env; no EnvironmentFile here.
+ExecStart=/opt/pet-treat-feeder/.venv/bin/python -m feeder --config /etc/pet-treat-feeder/config.yaml --env /etc/pet-treat-feeder/.env
+Restart=always
+RestartSec=5
+# Allow a clean shutdown (finish motor move, close SQLite) before SIGKILL.
+TimeoutStopSec=20
+# /var/lib/pet-treat-feeder: the SQLite DB lives here.
+StateDirectory=pet-treat-feeder
+StateDirectoryMode=0750
+
+# Hardening
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/var/lib/pet-treat-feeder
+
+[Install]
+WantedBy=multi-user.target
